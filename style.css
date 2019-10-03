@@ -1,0 +1,148 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+  line-height: 1.2;
+  color: #f5f6f7;
+}
+
+p {
+  font-size: 12px;
+}
+
+.margin {
+  margin-bottom: 20px;
+}
+
+.img-circle {
+  display: inline-block;
+  width: 300px;
+  height: 100%;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid #FFFFFF 3px;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 0px !important;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.bg-1 {
+  background-color: #0abab5;
+  color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #C9FFFC;
+  color: black;
+}
+
+.bg-3 {
+  background-color: #0abab5;
+  color: #ffffff;
+}
+
+.bg-4 {
+  background-color: #C9FFFC;
+  color: black;
+}
+
+.container-fluid {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+/* Contact section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 0vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header>h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header>h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header>p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+/* Footer */
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: var(--main-gray);
+  border-top: 4px solid var(--main-red);
+}
+
+footer>p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
